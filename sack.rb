@@ -4,7 +4,7 @@ class Sack < Formula
   homepage 'https://github.com/nybblr/sack'
 	url 'https://github.com/nybblr/sack',
 		:using => :git,
-		:revision => "4dc27f13ed725207badf0c845dcf6c57f91c8ab0"
+		:revision => "681b7301c0d3b8313c47d7f4563287e3d9419181"
   version "0.2"
 
   # depends_on :ack => :recommended
