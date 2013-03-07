@@ -2,9 +2,9 @@ require 'formula'
 
 class Sack < Formula
   homepage 'https://github.com/sampson-chen/sack'
-	url 'https://github.com/sampson-chen/sack',
+	url 'https://github.com/nybblr/sack',
 		:using => :git,
-		:revision => "c7bf88bbb5adf8b84314c971021707891d0ed418"
+		:revision => "821ecfc2bb9d0f28a3507bf41ec69fa6b350576d"
   version "0.1"
 
   # depends_on :ack => :recommended
