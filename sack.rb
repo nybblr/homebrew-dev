@@ -1,17 +1,17 @@
 require 'formula'
 
 class Sack < Formula
-  homepage 'https://github.com/sampson-chen/sack'
+  homepage 'https://github.com/nybblr/sack'
 	url 'https://github.com/nybblr/sack',
 		:using => :git,
-		:revision => "821ecfc2bb9d0f28a3507bf41ec69fa6b350576d"
-  version "0.1"
+		:revision => "4dc27f13ed725207badf0c845dcf6c57f91c8ab0"
+  version "0.2"
 
   # depends_on :ack => :recommended
   # depends_on :the_silver_searcher => :recommended
 
   def install
-    bin.install "sack", "sag", "sgrep"
+    bin.install "sack", "sag", "sgrep", "F"
   end
 
   test do
